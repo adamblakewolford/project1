@@ -1,0 +1,55 @@
+/* style choices for the whole site */
+
+body {
+    background-color: rgb(243, 233, 242)!important;
+}
+
+.bg-light {
+    background-color: rgb(247, 214, 242)!important; 
+}
+
+.navbar-brand { 
+    font-weight: 400!important;
+}
+
+.navbar {
+    margin-bottom: 0rem!important;
+}
+
+html, body {
+    height: 100%!important;
+    margin: 0!important;
+}
+  
+.content {
+    min-height: 100%!important;
+}
+  
+.content-inside {
+    padding-bottom: 1rem!important;
+}
+
+.footer {
+    height: auto;
+    margin-top: .5rem;
+    background-color: rgb(247, 214, 242)!important; 
+    padding-top: 0.5rem!important;
+    padding-right: 1rem!important;
+    padding-bottom: 0.5rem!important;
+    padding-left: 1rem!important;
+}
+
+.jumbotron {  
+    padding: 5rem 3rem!important;
+}
+
+.display-4 {
+    margin-bottom: 2rem!important;
+    font-weight: 400!important;
+    font-size: 5rem!important;
+}
+
+.lead {
+    font-weight: 400!important;
+    font-size: 1.65rem!important; 
+}
