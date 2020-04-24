@@ -1,50 +1,58 @@
 /* style choices for the whole site */
 
+/* overall design decisions */
 body {
-    background-color: rgb(243, 233, 242)!important;
+    background-color: #fddee5!important;
 }
 
+/* design for navbar */
 .bg-light {
-    background-color: rgb(247, 214, 242)!important; 
+    background-color: rgb(17, 75, 17)!important; 
 }
 
 .navbar-brand { 
     font-weight: 400!important;
+    color: white!important;
 }
 
-.navbar {
-    margin-bottom: 0rem!important;
+a.highlight {
+    color: white!important;
+    font-weight: 500;
 }
 
-html, body {
-    height: 100%!important;
-    margin: 0!important;
-}
-  
-.content {
-    min-height: 100%!important;
-}
-  
-.content-inside {
-    padding-bottom: 1rem!important;
+.nav-link {
+    font-size: 14pt!important;
+    color: rgba(255, 255, 255, 0.664)!important;
 }
 
-.footer {
-    height: auto;
-    margin-top: .5rem;
-    background-color: rgb(247, 214, 242)!important; 
-    padding-top: 0.5rem!important;
-    padding-right: 1rem!important;
-    padding-bottom: 0.5rem!important;
-    padding-left: 1rem!important;
+.navbar-text {
+    font-size: 14pt!important;
+    margin-right: 1rem!important;
+    color: white!important;
 }
 
+.btn-outline-info {
+    padding-top: .5rem!important;
+    color:  #ffd1dc!important;
+    border-color:  #ffd1dc!important;
+}
+
+.btn:hover {
+    background-color:  #ffd1dc!important;
+    color: black!important;
+}
+
+/* jumbotron edits */
 .jumbotron {  
     padding: 5rem 3rem!important;
+    background-attachment: fixed!important;
+    background-image: url(clothes.jpg); 
+    background-size: cover!important;
 }
 
 .display-4 {
     margin-bottom: 2rem!important;
+    margin-top: 1rem!important;
     font-weight: 400!important;
     font-size: 5rem!important;
 }
@@ -52,4 +60,27 @@ html, body {
 .lead {
     font-weight: 400!important;
     font-size: 1.65rem!important; 
+    margin-bottom: 1rem!important;
+}
+
+/* misc fix  */
+.my-4 {
+    margin-top: 1.25rem!important;
+    margin-bottom: 1.25 rem!important;
+}
+
+.fas{
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    font-size: 50pt!important;
+}
+
+/* footer details*/
+.footer {
+    background-color:  #ffb7c8!important;
+    margin-top: 1rem!important;
+}
+
+.footerstyle2{
+    margin-bottom: 0rem!important;
 }
