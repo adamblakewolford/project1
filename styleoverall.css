@@ -3,6 +3,7 @@
 /* overall design decisions */
 body {
     background-color: #fddee5!important;
+    margin-bottom: 96px!important;
 }
 
 /* design for navbar */
