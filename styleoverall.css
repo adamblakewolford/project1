@@ -4,6 +4,7 @@
 body {
     background-color: #fddee5!important;
     margin-bottom: 96px!important;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* design for navbar */
@@ -24,12 +25,14 @@ a.highlight {
 .nav-link {
     font-size: 14pt!important;
     color: rgba(255, 255, 255, 0.664)!important;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar-text {
     font-size: 14pt!important;
     margin-right: 1rem!important;
     color: white!important;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .btn-outline-info {
@@ -49,6 +52,7 @@ a.highlight {
     background-attachment: fixed!important;
     background-image: url(clothes.jpg); 
     background-size: cover!important;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .display-4 {
@@ -67,7 +71,12 @@ a.highlight {
 /* misc fix  */
 .my-4 {
     margin-top: 1.25rem!important;
-    margin-bottom: 1.25 rem!important;
+    margin-bottom: 1.25rem!important;
+}
+
+.my-2 {
+    margin-top: 0.75rem!important;
+    margin-bottom: 0.75rem!important;
 }
 
 .fas{
